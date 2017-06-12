@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="pro.zkey.werwolf.demo.daos.TestDao">
+    <select id="selectTest" resultType="pro.zkey.werwolf.demo.entitys.TestUser">
+      SELECT * FROM test.table_name
+    </select>
+    <insert id="addData" parameterType="pro.zkey.werwolf.demo.entitys.TestUser">
+        INSERT table_name SET aa=#{aa};
+    </insert>
+</mapper>
