@@ -12,6 +12,7 @@
         <module>common</module>
         <module>api</module>
         <module>werwolf</module>
+        <module>notification</module>
     </modules>
 
     <properties>
